@@ -64,7 +64,7 @@
         "id": 10,
         "title": "Eid",
         "description": "Eid Mubarak",
-        "imageUrl": "./src/assets/pictures/eid1.jpg"
+        "imageUrl": "./public/eid1.jpg"
     },
     {
         "id": 11,
