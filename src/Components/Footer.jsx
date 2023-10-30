@@ -40,7 +40,7 @@ function Footer() {
         </div>
         <div className="border-t border-gray-700 mt-8 pt-4">
           <p className="text-sm text-gray-500 text-center">
-            &copy; {new Date().getFullYear()} Company Name. All rights reserved.
+            &copy; {new Date().getFullYear()} Ethiography. All rights reserved.
           </p>
         </div>
       </div>

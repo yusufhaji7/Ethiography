@@ -4,7 +4,7 @@ import photosData from '../../assets/Photos.json';
 import Modal from 'react-modal';
 
 
-function Meskel() {
+function Lalibela() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [lalibela, setLalibela] = useState([]);
@@ -57,4 +57,4 @@ function Meskel() {
   );
 }
 
-export default Meskel;
+export default Lalibela;
