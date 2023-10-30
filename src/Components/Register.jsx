@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 //import { useHistory } from 'react-router-dom';
 
 const Registration = () => {
-  const history = useHistory();
+  //const history = useHistory();
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
