@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 
 const Registration = () => {
   const history = useHistory();
@@ -42,7 +42,7 @@ const Registration = () => {
     alert('Registration successful!');
 
     // Redirect to login page
-    history.push('/login');
+    // history.push('/login');
   };
 
   return (
