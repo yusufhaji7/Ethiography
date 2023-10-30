@@ -4,7 +4,7 @@
         "id": 0,
         "title": "Irrecha",
         "description": "Baga ayyaana irrechaan isin gahe!", 
-        "imageUrl": "../src/assets/irrechaone.jpg"
+        "imageUrl": "./src/assets/irrechaone.jpg"
     },
     {
         "id": 1,
@@ -64,7 +64,7 @@
         "id": 10,
         "title": "Eid",
         "description": "Eid Mubarak",
-        "imageUrl": "./src/assets/eid1.jpg"
+        "imageUrl": "https://github.com/yusufhaji7/Ethiography/blob/master/src/assets/eid1.jpg"
     },
     {
         "id": 11,
