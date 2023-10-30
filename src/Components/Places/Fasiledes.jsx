@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import photosData from '../../assets/Photos.json';
+import photosData from '../../Photos.json';
 import Modal from 'react-modal';
 
 

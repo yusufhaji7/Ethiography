@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import photosData from '../assets/Photos.json';
+import photosData from '../Photos.json';
 import Modal from 'react-modal';
 
 function Popular() {
