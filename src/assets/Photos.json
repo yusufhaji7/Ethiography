@@ -4,7 +4,7 @@
         "id": 0,
         "title": "Irrecha",
         "description": "Baga ayyaana irrechaan isin gahe!", 
-        "imageUrl": "./pictures/irrechaone.jpg"
+        "imageUrl": "./src/assets/pictures/irrechaone.jpg"
     },
     {
         "id": 1,
