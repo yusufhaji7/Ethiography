@@ -31,29 +31,19 @@ function Header() {
         <div className="hidden lg:flex lg:items-center">
           <ul className="flex space-x-4">
             <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                Home
-              </a>
+              <a href="#" className="nav-link">Home</a>
             </li>
             <li>
-              <a href="#places" className="text-gray-800 hover:text-gray-200">
-                Places
-              </a>
+              <a href="#places" className="nav-link">Places</a>
             </li>
             <li>
-              <a href="#holidays" className="text-gray-800 hover:text-gray-200">
-                Holidays
-              </a>
+              <a href="#holidays" className="nav-link">Holidays</a>
             </li>
             <li>
-              <a href="#footer" className="text-gray-800 hover:text-gray-200">
-                About
-              </a>
+              <a href="#footer" className="nav-link">About</a>
             </li>
             <li>
-              <a href="#footer" className="text-gray-800 hover:text-gray-200">
-                Contact
-              </a>
+              <a href="#footer" className="nav-link">Contact</a>
             </li>
           </ul>
         </div>
@@ -68,31 +58,21 @@ function Header() {
         {isMobileMenuOpen && (
           <div className="lg:hidden">
             <ul className="mt-4 space-y-2">
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                Places
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                Holidays
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className="text-gray-800 hover:text-gray-200">
-                Contact
-              </a>
-            </li>
+              <li>
+                <a href="#" className="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="#" className="nav-link">Places</a>
+              </li>
+              <li>
+                <a href="#" className="nav-link">Holidays</a>
+              </li>
+              <li>
+                <a href="#" className="nav-link">About</a>
+              </li>
+              <li>
+                <a href="#" className="nav-link">Contact</a>
+              </li>
             </ul>
           </div>
         )}

@@ -1,8 +1,6 @@
-import { useState } from 'react';
-import React from 'react';
+import { React, useState } from 'react';
 import photosData from '../../Photos.json';
 import Modal from 'react-modal';
-
 
 function Eid() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -24,15 +22,14 @@ function Eid() {
   };
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1">
-      {eid.map((photo) => (
-        <div key={photo.id} className="relative">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 mx-5 my-7">
+        {eid.map((photo) => (
+        <div key={photo.id} className="relative bg-white border rounded shadow-md">
           <img
             src={photo.imageUrl}
             alt={photo.title}
             onClick={() => openModal(photo)}
-            className="w-full h-auto object-cover rounded transform scale-75 hover:scale-100 transition duration-300 ease-in-out"
-          />
+            className="w-full h-auto object-cover rounded-t"          />
           {selectedPhoto && selectedPhoto.id === photo.id && (
             <Modal
               isOpen={modalIsOpen}
@@ -49,8 +46,10 @@ function Eid() {
               <img src={selectedPhoto.imageUrl} alt="Your Photo" />
             </Modal>
           )}
-          <h3 className="text-center">{photo.title}</h3>
-          <p className="text-center text-gray-400 italic">"{photo.description}"</p>
+          <div className="p-4">
+            <h3 className="text-center text-xl font-bold mb-2">{photo.title}</h3>
+            <p className="text-center text-gray-500 italic">"{photo.description}"</p>
+          </div>
         </div>
       ))}
     </div>
